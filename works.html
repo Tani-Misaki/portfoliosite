@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="谷 美咲のポートフォリオ Works" />
+    <title>Works page Tani Misaki</title>
+
+    <link rel="icon" href="images/favicon.png" />
+    <!-- Reset css -->
+    <link rel="stylesheet" href="http://unpkg.com/ress/dist/ress.min.css" />
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@80,300&display=swap"
+      rel="stylesheet"
+    />
+    <!-- slick -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="js/jquery.js"></script>
+  </head>
+
+  <body>
+    <header id="header">
+      <div class="headernav">
+        <h1>
+          <a href="index.html"><img src="images/logo_pc.png" alt="ロゴ" /></a>
+        </h1>
+        <nav class="pc_nav">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li class="current"><a href="works.html">Works</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <!-- ハンバーガーメニュー -->
+        <div class="btn_spnav"><span></span></div>
+        <nav class="sp_nav">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="works.html">Works</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="works_sec">
+        <div class="works_container">
+          <div class="works_list">
+            <div class="works_ttl_wrap">
+              <h2>Works</h2>
+              <p class="works_subttl">制作実績</p>
+            </div>
+            <div class="works_cate">
+              <dl>
+                <dt>Category</dt>
+                <div class="cate_item">
+                  <dd>
+                    <a href="" class="all" data-filter="all">All</a>
+                  </dd>
+                  <dd>
+                    <a href="" class="website" data-filter="website"
+                      >Web site</a
+                    >
+                  </dd>
+                  <dd>
+                    <a href="" class="banner" data-filter="banner">Banner</a>
+                  </dd>
+                  <dd>
+                    <a href="" class="other" data-filter="other"
+                      >Other design</a
+                    >
+                  </dd>
+                </div>
+              </dl>
+            </div>
+          </div>
+          <div class="works_items">
+            <ul>
+              <li class="item_detail website" data-category="website">
+                <p>Web site</p>
+                <a href="work_cafe.html"
+                  ><img
+                    src="images/topwork_pc01-100.jpg"
+                    alt="work画像カフェサイト"
+                /></a>
+              </li>
+              <li class="item_detail website" data-category="website">
+                <p>Web site</p>
+                <a href="work_write.html"
+                  ><img
+                    src="images/topwork_pc02-100.jpg"
+                    alt="work画像writeサイト"
+                /></a>
+              </li>
+              <li class="item_detail website" data-category="website">
+                <p>Web site</p>
+                <a href="work_portfolio.html"
+                  ><img
+                    src="images/topwork_pc03-100.jpg"
+                    alt="work画像ポートフォリオサイト"
+                /></a>
+              </li>
+              <li class="item_detail other" data-category="other">
+                <p>Other (LP)</p>
+                <a href="work_salonLP.html"
+                  ><img
+                    src="images/topwork_pc04-100.jpg"
+                    alt="work画像サロンLP"
+                /></a>
+              </li>
+              <li class="item_detail banner" data-category="banner">
+                <p>Banner</p>
+                <a href="work_cosmebanner.html"
+                  ><img
+                    src="images/topwork_pc05-100.jpg"
+                    alt="work画像化粧品バナー"
+                /></a>
+              </li>
+              <li class="item_detail other" data-category="other">
+                <p>Other (illustration)</p>
+                <a href="work_vegetable.html"
+                  ><img
+                    src="images/topwork_pc06-100.jpg"
+                    alt="work画像野菜イラスト"
+                /></a>
+              </li>
+              <li class="item_detail banner" data-category="banner">
+                <p>Banner</p>
+                <a href="work_camp.html"
+                  ><img
+                    src="images/topwork_pc08-100.jpg"
+                    alt="work画像キャンプフェスバナー"
+                /></a>
+              </li>
+              <li class="item_detail banner" data-category="banner">
+                <p>Banner</p>
+                <a href="work_school.html"
+                  ><img
+                    src="images/topwork_pc07-100.jpg"
+                    alt="work画像セミナーバナー"
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- お問い合わせボタン -->
+      <div class="contact_container">
+        <a href="index.html#contact" class="btn_contact bgcenterout"
+          ><span>お問い合わせはこちら</span></a
+        >
+      </div>
+    </main>
+    <footer>
+      <div class="footer_wrap">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li class="current"><a href="works.html">Works</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+        <p class="copy">© 2022 MISAKI TANI</p>
+      </div>
+      <div class="top_btn_wrap">
+        <p class="top_btn">
+          <a href="#header"
+            ><img src="images/topbtn.png" alt="トップへ戻るボタン"
+          /></a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
