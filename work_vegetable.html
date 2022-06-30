@@ -33,35 +33,19 @@
       type="text/javascript"
       src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
     ></script>
+
+    <script>
+      $(function () {
+        $("#header01").load("header.html");
+        $("#footer01").load("footer.html");
+      });
+    </script>
+
     <script src="js/jquery.js"></script>
   </head>
 
   <body>
-    <header>
-      <div class="headernav">
-        <h1>
-          <a href="index.html"><img src="images/logo_pc.png" alt="ロゴ" /></a>
-        </h1>
-        <nav class="pc_nav">
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="works.html">Works</a></li>
-            <li><a href="index.html#contact">Contact</a></li>
-          </ul>
-        </nav>
-        <!-- ハンバーガーメニュー -->
-        <div class="btn_spnav"><span></span></div>
-        <nav class="sp_nav">
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="works.html">Works</a></li>
-            <li><a href="index.html#contact">Contact</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
+    <header id="header01"></header>
 
     <main>
       <div class="workitem">
@@ -115,23 +99,6 @@
       </div>
     </main>
 
-    <footer>
-      <div class="footer_wrap">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="works.html">Works</a></li>
-          <li><a href="index.html#contact">Contact</a></li>
-        </ul>
-        <p class="copy">© 2022 MISAKI TANI</p>
-      </div>
-      <div class="top_btn_wrap">
-        <p class="top_btn">
-          <a href="#header">
-            <img src="images/topbtn.png" alt="トップへ戻るボタン白" />
-          </a>
-        </p>
-      </div>
-    </footer>
+    <footer id="footer01"></footer>
   </body>
 </html>

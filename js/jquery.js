@@ -80,6 +80,14 @@ $(function () {
     }
   });
 
+  // Worksページのフィルター下線部分
+  $(".cate_item dd").click(function () {
+    var index = $(".cate_item dd").index(this);
+    $(".cate_item dd").removeClass("current");
+    $(this).addClass("current");
+    $(".cate_item dd").eq(index).addClass("current");
+  });
+
   $(".slider_img ul").slick({
     autoplay: true,
     arrows: false,

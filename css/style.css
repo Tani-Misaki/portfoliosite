@@ -20,6 +20,8 @@ dd {
   font-family: "Open Sans", "游ゴシック Medium", "Yu Gothic Medium",
     "游ゴシック体", "YuGothic", "ヒラギノ角ゴ ProN W3",
     "Hiragino Kaku Gothic ProN", "メイリオ", "Meiryo", "verdana", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 ul {
@@ -137,6 +139,7 @@ h1 {
 }
 .pc_nav .current a,
 .pc_nav li a:hover,
+.cate_item .current a,
 .cate_item dd a:hover {
   opacity: 1;
 }
@@ -155,8 +158,9 @@ h1 {
   transform: scale(0, 1); /*X方向0、Y方向1*/
   transform-origin: left top; /*左上基点*/
 }
-.pc_nav li.current a::after,
+.pc_nav .current a::after,
 .pc_nav li a:hover::after,
+.cate_item .current a::after,
 .cate_item dd a:hover::after {
   transform: scale(1.2, 0.5); /*X方向にスケール拡大*/
 }
