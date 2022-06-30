@@ -779,7 +779,7 @@ footer {
   margin-bottom: 20px;
 }
 .works_cate dd {
-  font-size: 1.25vw;
+  font-size: 1.4vw;
   margin-bottom: 16px;
   letter-spacing: 0.1em;
 }
@@ -809,7 +809,7 @@ footer {
 .item_detail p {
   font-family: "font-family: 'Open Sans', sans-serif;";
   font-weight: 400;
-  font-size: 0.9vw;
+  font-size: 1.2vw;
 }
 .item_detail img {
   outline: none;
@@ -854,7 +854,6 @@ footer {
   transition: 0.3s;
 }
 .outline_ttl {
-  font-family: "font-family: 'Open Sans', sans-serif;";
   font-weight: 600;
   font-size: 1.7vw;
   padding-bottom: 18px;
@@ -907,7 +906,7 @@ footer {
   font-size: 1.4vw;
   border-left: 7px solid;
   padding-left: 8px;
-  margin-bottom: 15px;
+  margin-top: 15px;
 }
 .cap_list {
   width: 50%;
@@ -1119,6 +1118,11 @@ footer {
   /* ヘッダー箇所 */
   h1 {
     width: 8%;
+  }
+  h2 {
+    font-family: "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体",
+      "YuGothic", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN",
+      "メイリオ", "Meiryo";
   }
 
   /* ハンバーガーメニュー */
@@ -1370,6 +1374,9 @@ footer {
   }
   .skill_detail dd {
     font-size: 3vw;
+    font-family: "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体",
+      "YuGothic", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN",
+      "メイリオ", "Meiryo";
   }
 
   .favorite_group {
@@ -1449,6 +1456,9 @@ footer {
   .item_detail {
     width: 45%;
   }
+  .item_detail p {
+    font-size: 2.7vw;
+  }
 
   /* Works 詳細ページ */
   .workitem {
@@ -1464,9 +1474,15 @@ footer {
   .descript dd {
     font-size: 2.4vw;
     justify-content: space-between;
+    font-family: "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体",
+      "YuGothic", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN",
+      "メイリオ", "Meiryo";
   }
   .outline_list dd {
     width: 60%;
+    font-family: "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体",
+      "YuGothic", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN",
+      "メイリオ", "Meiryo";
   }
   .outline_list dd br {
     display: block;
@@ -1476,6 +1492,10 @@ footer {
   }
   .descript dt {
     font-size: 2.8vw;
+    padding-bottom: 15px;
+    font-family: "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体",
+      "YuGothic", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN",
+      "メイリオ", "Meiryo";
   }
   .capture_title {
     font-size: 2.5vw;
@@ -1498,5 +1518,8 @@ footer {
   }
   .btn_back {
     width: 30%;
+  }
+  .btn_back a {
+    font-size: 1.8vw;
   }
 }
