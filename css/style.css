@@ -34,15 +34,13 @@ a {
   transition: 0.3s;
 }
 
-/* a:hover {
-  opacity: 0.5;
-} */
 img {
   width: 100%;
 }
 /* ここまでリセット */
 body {
   background-color: #eae6dd;
+  width: 100%;
 }
 .wrap {
   background-color: #eae6dd;
