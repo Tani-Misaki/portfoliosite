@@ -1298,7 +1298,7 @@ footer {
   }
   .footer_wrap ul li {
     text-align: center;
-    font-size: 2.5vw;
+    font-size: 2.8vw;
   }
   .copy {
     font-size: 2.2vw;
@@ -1317,11 +1317,16 @@ footer {
     font-size: 4.5vw;
     line-height: 1.7;
   }
-  .about_ttl_wrap h2 {
-    font-size: 6.5vw;
+  .about_title h2,
+  .skill_title h2 {
+    font-size: 7vw;
+    font-family: "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体",
+      "YuGothic", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN",
+      "メイリオ", "Meiryo";
   }
-  .about_subttl {
-    font-size: 2vw;
+  .about_subtt,
+  .skill_subttl {
+    font-size: 2.3vw;
   }
   .about_descript {
     display: none;
@@ -1361,12 +1366,6 @@ footer {
   }
   .line {
     margin: 50px auto;
-  }
-  .skill_title h2 {
-    font-size: 6vw;
-  }
-  .skill_subttl {
-    font-size: 1.8vw;
   }
   .skill_list dl {
     display: block;
@@ -1421,7 +1420,7 @@ footer {
   /* お問い合わせボタン */
   .btn_contact {
     width: 70%;
-    font-size: 2.5vw;
+    font-size: 2.8vw;
   }
 
   /* Worksページ */
@@ -1430,6 +1429,9 @@ footer {
   }
   .works_ttl_wrap h2 {
     font-size: 9.2vw;
+  }
+  .works_subttl {
+    font-size: 2.3vw;
   }
 
   .works_list {
@@ -1476,9 +1478,12 @@ footer {
   .page_link {
     font-size: 2.5vw;
   }
+  .outline_list {
+    padding: 10px 0 10px;
+  }
   .outline_list,
   .descript dd {
-    font-size: 2.4vw;
+    font-size: 2.8vw;
     justify-content: space-between;
     font-family: "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体",
       "YuGothic", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN",
@@ -1494,17 +1499,18 @@ footer {
     display: block;
   }
   .outline_ttl {
-    font-size: 2.7vw;
+    font-size: 3vw;
+    padding-bottom: 6px;
   }
   .descript dt {
-    font-size: 2.8vw;
-    padding-bottom: 15px;
+    font-size: 3vw;
+    padding-bottom: 10px;
     font-family: "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体",
       "YuGothic", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN",
       "メイリオ", "Meiryo";
   }
   .capture_title {
-    font-size: 2.5vw;
+    font-size: 2.8vw;
   }
   .capture_wrap {
     width: 80%;
@@ -1523,9 +1529,9 @@ footer {
     width: 20%;
   }
   .btn_back {
-    width: 30%;
+    width: 40%;
   }
   .btn_back a {
-    font-size: 1.8vw;
+    font-size: 2.4vw;
   }
 }
