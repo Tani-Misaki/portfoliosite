@@ -38,17 +38,6 @@ $(function () {
     return false;
   });
 
-  // トップへ戻るボタン
-  //   let target = $("main").offset().top;
-  //   $(window).on("scroll", function () {
-  //     let viewh = $(window).scrollTop();
-  //     if (viewh > target) {
-  //       $(".bk").Hide();
-  //     } else {
-  //       $(".wt").Show();
-  //     }
-  //   });
-
   $(".btn_spnav, .sp_nav li a").click(function () {
     $(".sp_nav").fadeToggle();
     $(".btn_spnav").toggleClass("open");

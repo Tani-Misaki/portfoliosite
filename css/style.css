@@ -41,8 +41,10 @@ img {
   width: 100%;
 }
 /* ここまでリセット */
-
 body {
+  background-color: #eae6dd;
+}
+.wrap {
   background-color: #eae6dd;
   width: 100%;
   box-sizing: border-box;
@@ -63,7 +65,7 @@ body {
   background-color: #c26924;
   opacity: 0.1;
   position: absolute;
-  z-index: -1;
+  z-index: 1;
 }
 .top_circle span::before {
   top: 20vw;
@@ -85,7 +87,7 @@ body {
   background-color: #c26924;
   opacity: 0.1;
   position: absolute;
-  z-index: -1;
+  z-index: 2;
 }
 .top_circle2 span::before {
   bottom: -10vw;
@@ -166,6 +168,12 @@ h1 {
 }
 
 /* メインビジュアル箇所 */
+section,
+footer {
+  position: relative;
+  z-index: 30;
+}
+
 main {
   margin-top: 15%;
 }
@@ -521,7 +529,7 @@ footer {
   background-color: #c26924;
   opacity: 0.1;
   position: absolute;
-  z-index: -2;
+  z-index: 3;
 }
 .about_circle span::before {
   top: -80px;
