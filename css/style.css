@@ -506,6 +506,31 @@ footer {
   margin-top: 105px;
 }
 
+/* thanksページ */
+.thanks_warp {
+  margin: 10% auto;
+  text-align: center;
+}
+.thanks_ttl {
+  font-size: 30px;
+}
+
+.thanks_msg {
+  margin-top: 40px;
+  margin-bottom: 100px;
+  font-size: 17px;
+}
+.btn_home a {
+  font-size: 14px;
+  background-color: #424242;
+  border-radius: 8px;
+  color: #fff;
+  padding: 10px 16px;
+}
+.btn_home a:hover {
+  opacity: 0.8;
+}
+
 /* Aboutページ */
 /* about箇所 */
 .sp_about_descript {
@@ -1302,6 +1327,21 @@ footer {
   }
   .copy {
     font-size: 2.2vw;
+  }
+
+  /* thanksページ */
+  .thanks_ttl {
+    font-size: 22px;
+  }
+
+  .thanks_msg {
+    margin-top: 40px;
+    margin-bottom: 100px;
+    font-size: 15px;
+  }
+  .btn_home a {
+    font-size: 12px;
+    padding: 8px 12px;
   }
 
   /* Aboutページ */

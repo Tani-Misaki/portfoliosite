@@ -196,6 +196,9 @@
             <form
               id="contact_form"
               action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeBMJdYLt4_pWy0JvUGLdsWB0r7uqncIDfxqmCzUl1pqZ0ucA/formResponse"
+              method="post"
+              target="hidden_iframe"
+              onsubmit="submitted=true;"
             >
               <p class="input_field">
                 <label for="your_name">お名前</label>
@@ -234,6 +237,16 @@
                 ></textarea>
               </p>
               <input type="submit" class="btn_submit" value="送信" />
+
+              <script type="text/javascript">
+                var submitted = false;
+              </script>
+              <iframe
+                name="hidden_iframe"
+                id="hidden_iframe"
+                style="display: none"
+                onload="if(submitted)  {window.location='thanks.html';}"
+              ></iframe>
             </form>
           </div>
         </section>
@@ -257,11 +270,6 @@
                 src="images/topbtn.png"
                 alt="トップへ戻るボタン白"
               />
-              <!-- <img
-              class="bk"
-              src="images/topbtn_bk.png"
-              alt="トップへ戻るボタン黒"
-            /> -->
             </a>
           </p>
         </div>
