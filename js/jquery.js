@@ -77,6 +77,13 @@ $(function () {
     $(".cate_item dd").eq(index).addClass("current");
   });
 
+  // ふわっと
+  $("section, .workitem").on("inview", function (event, isInView) {
+    if (isInView) {
+      $(this).stop().addClass("is-show");
+    }
+  });
+
   $(".slider_img ul").slick({
     autoplay: true,
     arrows: false,

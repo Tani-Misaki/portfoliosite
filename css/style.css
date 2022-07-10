@@ -49,6 +49,15 @@ body {
   overflow-x: hidden;
 }
 
+section,
+.workitem {
+  opacity: 0;
+  transition: 2s;
+}
+.is-show {
+  opacity: 1;
+}
+
 /* トップページ */
 /* 背景の円 */
 .top_circle {
@@ -184,7 +193,7 @@ main {
   margin-left: 10%;
 }
 .title {
-  margin-top: 40px;
+  margin-top: 60px;
   position: relative;
 }
 .ttl_sub {
@@ -415,9 +424,12 @@ h2 {
 }
 
 /* contact箇所 */
-.contact_wrap {
+#contact {
   padding-top: 140px;
 }
+/* .contact_wrap {
+  padding-top: 140px;
+} */
 .contact_message {
   margin: 70px auto;
   font-size: 18px;
@@ -444,7 +456,7 @@ textarea {
   display: flex;
   flex-direction: column;
   width: 50%;
-  margin: 0 auto;
+  margin: 12px auto 0;
 }
 .btn_submit {
   display: block;
@@ -1022,6 +1034,9 @@ footer {
     width: 6%;
   }
   /* トップページ */
+  .title {
+    margin-top: 30px;
+  }
   .ttl_sub {
     font-size: 2.2vw;
   }
@@ -1459,7 +1474,7 @@ footer {
   }
   /* お問い合わせボタン */
   .btn_contact {
-    width: 70%;
+    width: 60%;
     font-size: 2.8vw;
   }
 
@@ -1477,7 +1492,7 @@ footer {
   .works_list {
     border: none;
     width: 90%;
-    margin: 0 auto 10%;
+    margin: 0 auto 15%;
   }
   .works_ttl_wrap {
     margin-bottom: 10%;
@@ -1503,6 +1518,7 @@ footer {
   }
   .item_detail {
     width: 45%;
+    margin-bottom: 30px;
   }
   .item_detail p {
     font-size: 2.7vw;
@@ -1516,14 +1532,14 @@ footer {
     width: 90%;
   }
   .page_link {
-    font-size: 2.5vw;
+    font-size: 2.8vw;
   }
   .outline_list {
     padding: 10px 0 10px;
   }
   .outline_list,
   .descript dd {
-    font-size: 2.8vw;
+    font-size: 2.7vw;
     justify-content: space-between;
     font-family: "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体",
       "YuGothic", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN",
@@ -1542,6 +1558,9 @@ footer {
     font-size: 3vw;
     padding-bottom: 6px;
   }
+  .descript_ttl {
+    padding-top: 40px;
+  }
   .descript dt {
     font-size: 3vw;
     padding-bottom: 10px;
@@ -1559,7 +1578,8 @@ footer {
     width: 65%;
   }
   .cap_list dt p {
-    font-size: 1.8vw;
+    font-size: 2.5vw;
+    border-left: 4px solid;
   }
   .order_content {
     font-size: 2.2vw;
