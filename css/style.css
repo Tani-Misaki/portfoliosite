@@ -49,14 +49,14 @@ body {
   overflow-x: hidden;
 }
 
-section,
+/* section,
 .workitem {
   opacity: 0;
   transition: 2s;
 }
 .is-show {
   opacity: 1;
-}
+} */
 
 /* トップページ */
 /* 背景の円 */
