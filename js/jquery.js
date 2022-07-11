@@ -78,7 +78,7 @@ $(function () {
   });
 
   // ふわっと表示
-  $("section").on("inview", function (event, isInView) {
+  $("section, .workitem").on("inview", function (event, isInView) {
     if (isInView) {
       $(this).stop().addClass("is-show");
     }
