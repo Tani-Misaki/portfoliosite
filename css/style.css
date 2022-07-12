@@ -371,18 +371,16 @@ h2 {
   flex-wrap: wrap;
 }
 .work_wrap ul li {
+  overflow: hidden;
   width: 30%;
   margin-bottom: 35px;
 }
 .work_wrap ul li img {
-  outline: none;
-  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2), 0 0 40px rgba(128, 128, 128, 0.1);
-  transition: 0.5s;
+  transition: transform 0.7s ease;
 }
-.work_wrap ul li img:hover {
-  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4),
-    3px 3px 50px rgba(128, 128, 128, 0.1);
-  border-color: transparent;
+
+.work_wrap ul li:hover img {
+  transform: scale(1.1);
 }
 
 .btn_works {
@@ -854,15 +852,15 @@ footer {
   font-weight: 400;
   font-size: 1.2vw;
 }
-.item_detail img {
-  outline: none;
-  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2), 0 0 40px rgba(128, 128, 128, 0.1);
-  transition: 0.5s;
+.img_wrap {
+  overflow: hidden;
 }
-.item_detail img:hover {
-  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4),
-    3px 3px 50px rgba(128, 128, 128, 0.1);
-  border-color: transparent;
+.item_detail img {
+  height: auto;
+  transition: transform 0.7s ease;
+}
+.item_detail:hover img {
+  transform: scale(1.1);
 }
 
 /* Works 各詳細ページ */
