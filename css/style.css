@@ -716,23 +716,23 @@ footer {
 .favorite_container {
   margin-bottom: 40px;
 }
-.favite_item {
+.favorite_item {
   width: 70%;
   margin: 8% auto 0;
 }
-.favite_detail {
+.favorite_detail {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 30px;
 }
-.favite_detail dt {
+.favorite_detail dt {
   width: 30%;
   font-size: 1.8vw;
   font-family: "font-family: 'Open Sans', sans-serif;";
   font-weight: 400;
 }
-.favite_detail dd {
+.favorite_detail dd {
   width: 65%;
   font-size: 1.5vw;
 }
@@ -1076,11 +1076,11 @@ footer {
     font-size: 1.3vw;
     line-height: 1.5;
   }
-  .favite_detail dt {
+  .favorite_detail dt {
     font-size: 2.2vw;
     width: 20%;
   }
-  .favite_detail dd {
+  .favorite_detail dd {
     font-size: 1.8vw;
     width: 75%;
   }
@@ -1352,7 +1352,7 @@ footer {
       "YuGothic", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN",
       "メイリオ", "Meiryo";
   }
-  .about_subtt,
+  .about_subttl,
   .skill_subttl {
     font-size: 2.3vw;
   }
@@ -1426,27 +1426,26 @@ footer {
   .favorite_subttl {
     font-size: 2.2vw;
   }
-  .favite_detail {
+  .favorite_detail {
     display: block;
   }
-  .favite_item {
+  .favorite_item {
     width: 80%;
     margin-top: 12%;
   }
-  .favite_detail dt,
-  .favite_detail dd {
+  .favorite_detail dt,
+  .favorite_detail dd {
     width: 100%;
   }
-  .favite_detail dt {
-    font-size: 3.5vw;
+  .favorite_detail dt {
+    font-size: 4.2vw;
     font-weight: bold;
     font-family: "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体",
       "YuGothic", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN",
       "メイリオ", "Meiryo";
   }
-  .favite_detail dd {
+  .favorite_detail dd {
     font-size: 3.3vw;
-    margin-left: 5%;
   }
   /* お問い合わせボタン */
   .btn_contact {
