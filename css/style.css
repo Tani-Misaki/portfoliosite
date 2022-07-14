@@ -283,7 +283,7 @@ main {
 }
 
 /* コンテンツ共通設定 */
-.contet_ttl {
+.content_ttl {
   text-align: center;
   margin-bottom: 6%;
 }
@@ -426,7 +426,7 @@ h2 {
   padding-top: 140px;
 }
 .contact_message {
-  margin: 70px auto;
+  margin: 32px auto 0;
   font-size: 18px;
   line-height: 1.7;
 }
@@ -436,7 +436,6 @@ label {
 
 input,
 textarea {
-  border: 1px solid #424242;
   background-color: #fff;
   height: 40px;
   font-family: "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体",
@@ -451,7 +450,10 @@ textarea {
   display: flex;
   flex-direction: column;
   width: 50%;
-  margin: 12px auto 0;
+  margin: 8px auto 0;
+}
+.input_field:first-child {
+  margin-top: 0;
 }
 .btn_submit {
   display: block;
@@ -739,16 +741,10 @@ footer {
   margin: 20% auto 15%;
   text-align: center;
 }
-.top_contact {
-  margin-top: 5%;
-}
 
 .btn_contact {
   width: 40%;
   font-size: 1.32vw;
-  /*アニメーションの起点とするためrelativeを指定*/
-  position: relative;
-  overflow: hidden;
   display: inline-block;
   border: 3px solid #333;
   border-radius: 9px;
@@ -757,10 +753,7 @@ footer {
   transition: ease 0.5s;
 }
 
-/*ボタン内spanの形状*/
 .btn_contact span {
-  position: relative;
-  z-index: 10;
   color: #333;
 }
 
@@ -768,24 +761,8 @@ footer {
   color: #eae6dd;
 }
 
-/*== 背景が流れる（中央から外） */
-.bgcenterout:before {
-  content: "";
-  /*絶対配置で位置を指定*/
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 9;
-  background: #333;
-  width: 100%;
-  height: 100%;
-  transition: transform 0.5s cubic-bezier(0.8, 0, 0.2, 1) 0s;
-  transform: scale(0, 0);
-  transform-origin: center;
-}
-
-.bgcenterout:hover:before {
-  transform: scale(1, 1);
+.btn_contact:hover {
+  background-color: #333;
 }
 
 /* Worksページ */
@@ -814,7 +791,7 @@ footer {
   font-family: "font-family: 'Open Sans', sans-serif;";
   font-weight: 400;
   font-size: 1.6vw;
-  margin-bottom: 20px;
+  margin-bottom: 24px;
 }
 .works_cate dd {
   font-size: 1.4vw;
