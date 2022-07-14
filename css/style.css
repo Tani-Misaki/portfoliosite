@@ -437,6 +437,7 @@ label {
 input,
 textarea {
   background-color: #fff;
+  border: none;
   height: 40px;
   font-family: "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体",
     "YuGothic", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ",
