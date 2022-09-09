@@ -585,7 +585,6 @@ footer {
 }
 .about_subttl {
   font-size: 1.3vw;
-  text-align: end;
 }
 .about_descript {
   font-size: 1.8vw;
@@ -658,7 +657,6 @@ footer {
 }
 .skill_subttl {
   font-size: 1.1vw;
-  text-align: end;
 }
 .skill_list {
   width: 100%;
@@ -711,7 +709,7 @@ footer {
 .favorite_subttl {
   font-size: 1.1vw;
   color: #fff;
-  text-align: end;
+  text-align: start;
 }
 .favorite_container {
   margin-bottom: 40px;
@@ -786,7 +784,7 @@ footer {
 }
 .works_ttl_wrap {
   font-size: 1.3vw;
-  text-align: end;
+  text-align: start;
 }
 .works_cate dt {
   font-family: "font-family: 'Open Sans', sans-serif;";
