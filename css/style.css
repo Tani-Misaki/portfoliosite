@@ -902,6 +902,15 @@ footer {
 .descript_ttl {
   padding-top: 60px;
 }
+.descript_color1 {
+  color: #eae6dd;
+}
+.descript_color2 {
+  color: #333;
+}
+.descript_color3 {
+  color: #c26924;
+}
 
 /* キャプチャー箇所 */
 .capture_wrap {
