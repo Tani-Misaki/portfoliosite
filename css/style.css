@@ -888,6 +888,7 @@ footer {
 .descript dl {
   margin-top: 10%;
   padding: 30px;
+  text-align: justify;
 }
 .descript dt {
   font-family: "font-family: 'Open Sans', sans-serif;";
@@ -910,6 +911,9 @@ footer {
 }
 .descript_color3 {
   color: #c26924;
+}
+.descript_cl {
+  padding-top: 8px;
 }
 
 /* キャプチャー箇所 */
